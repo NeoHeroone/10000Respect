@@ -1,0 +1,17 @@
+.links{
+    text-decoration: none;
+    display: inline-block;
+    transition: .5s;
+    color: #696871;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19.53px;
+    letter-spacing: -0.47px;
+    padding-bottom: 10;
+    
+    &:hover{
+        color: #19191B;
+        border-bottom: 2px solid #5454D4;
+        padding-bottom: 10px;
+    }
+}

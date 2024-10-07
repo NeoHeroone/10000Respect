@@ -1,3 +1,6 @@
+@import "placeholder";
+@import "misin";
+
 main {
     
     .section1 {
@@ -5,9 +8,7 @@ main {
         .container-sect1 {
 
             .cards{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+                @include containerSect;
                 margin-top: 109px;
                 margin-bottom: 159px;
             }
@@ -22,12 +23,7 @@ main {
                 }
 
                 .box-text{
-                    font-size: 50px;
-                    font-weight: 700;
-                    line-height: 57px;
-                    letter-spacing: -1.563158392906189px;
-                    text-align: left;
-                    color: #19191B;
+                    @extend %Titles;
                 }
 
                 .box-desc{
