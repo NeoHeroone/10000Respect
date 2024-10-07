@@ -10,19 +10,6 @@ header .container-header .head-tab {
   justify-content: space-between;
   width: 327px;
 }
-header .container-header .head-tab .head-list .head-link {
-  color: #696871;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 19.53px;
-  letter-spacing: -0.47px;
-  padding-bottom: 10px;
-}
-header .container-header .head-tab .head-list .head-link:hover {
-  color: #19191B;
-  border-bottom: 2px solid #5454D4;
-  padding-bottom: 10px;
-}
 header .container-header .head-btn {
   padding: 19px 59px;
   border: 1px solid transparent;
@@ -75,10 +62,20 @@ nav .container-nav .nav-title .nav-buttons .nav-btn:hover {
   background-color: #FF7143;
 }
 
+main .section2 .container-sect2 .section2-cards .cards-name, main .section1 .container-sect1 .boxes .box-text {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: -1.5631583929px;
+  text-align: left;
+  color: #19191B;
+}
+
 main .section1 .container-sect1 .cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
   margin-top: 109px;
   margin-bottom: 159px;
 }
@@ -89,14 +86,6 @@ main .section1 .container-sect1 .boxes {
 }
 main .section1 .container-sect1 .boxes .box-title {
   width: 556px;
-}
-main .section1 .container-sect1 .boxes .box-text {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 57px;
-  letter-spacing: -1.5631583929px;
-  text-align: left;
-  color: #19191B;
 }
 main .section1 .container-sect1 .boxes .box-desc {
   font-family: "Mulish", sans-serif;
@@ -134,21 +123,22 @@ main .section1 .container-sect1 .boxes .box-link:hover {
   color: #19191B;
 }
 
+main .section2 .container-sect2 .section2-cards .cards-name, main .section1 .container-sect1 .boxes .box-text {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: -1.5631583929px;
+  text-align: left;
+  color: #19191B;
+}
+
 main .section2 .container-sect2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 100px 0;
   text-align: center;
-}
-main .section2 .container-sect2 .section2-cards .cards-name {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: -0.7503160238px;
-  color: #19191B;
-  margin-top: 7px;
-  margin-bottom: 20px;
+  text-align: center;
+  padding: 100px 0;
 }
 main .section2 .container-sect2 .section2-cards .card-desc {
   font-family: "Mulish", sans-serif !important;
@@ -208,7 +198,6 @@ footer .container-footer .footer-cards {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 82px;
 }
 footer .container-footer .footer-cards .footer-card {
   position: relative;
@@ -272,6 +261,40 @@ footer .container-footer .footer-cards .footer-card .footer-btn {
   border-radius: 7px;
 }
 
+main .section1 .container-sect1 .boxes .box-text, main .section2 .container-sect2 .section2-cards .cards-name {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: -1.5631583929px;
+  text-align: left;
+  color: #19191B;
+}
+
+.links {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  color: #696871;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19.53px;
+  letter-spacing: -0.47px;
+  padding-bottom: 10;
+}
+.links:hover {
+  color: #19191B;
+  border-bottom: 2px solid #5454D4;
+  padding-bottom: 10px;
+}
+
+.my-0 {
+  margin-top: 0px;
+}
+
+.my-1 {
+  margin-top: 82px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -281,8 +304,6 @@ footer .container-footer .footer-cards .footer-card .footer-btn {
 
 a {
   text-decoration: none;
-  display: inline-block;
-  transition: 0.5s;
 }
 
 ul,
